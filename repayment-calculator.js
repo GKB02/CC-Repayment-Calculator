@@ -1,9 +1,12 @@
 // Input % rate (Annual)
 
+
 let cardBalance = 824.84
 const interestRate = 29.9
-let timeFrame = 5
+let timeFrame = 12
 const payments = [];
+
+
 
 // calculating interest charged on card balance:
 const upcomingCharge = (rate, balance) => {
